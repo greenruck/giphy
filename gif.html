@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gif.css">
+    <style>hr {
+        width: 70%;
+        color:black;
+        margin-left: auto;
+        margin-right: auto;
+      }</style>
+    <title>Giphy Party!</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Giphy Party</h1>
+        <hr />
+        <form class="searcher">
+            <input type="text" name="search" id="search"
+            placeholder = "Enter Gif Topic" class = "form-control"/>
+            <input type="submit" class="btn-submit" value="Search Giphy!"/>
+            <button id="remove" class="btn-clear">Remove GIFs</button>          
+        </form>
+    </div>
+    <div id = "gif-area" class = "row">
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="gif.js"></script>
+</body>
+
+</html>
